@@ -1,0 +1,2 @@
+gradio>=3.0
+openai>=1.0.0
