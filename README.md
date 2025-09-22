@@ -1,13 +1,45 @@
-# Meeting Minutes Generator (Gradio)
+# 📝 Business Meeting Minutes Generator
 
-This Gradio app:
-- Accepts audio (wav/mp3/m4a)
-- Transcribes with OpenAI Whisper
-- Generates meeting minutes using OpenAI chat API (v1 client)
+This project leverages **OpenAI Whisper** (speech-to-text) and **GPT models** (text generation) to automatically convert meeting audio into **professional minutes** — including summary, key discussion points, and action items.
 
-## Deploy
-1. Add OPENAI_API_KEY in the deployment environment (Hugging Face Space secrets).
-2. Run `app.py` (Gradio will serve the UI).
+##  Live Demo
+Try it here:  
+## [Hugging Face Space](https://huggingface.co/spaces/suyashsharma/business-meeting-minutes-gradio)
 
-## Notes
-- Do NOT commit your OPENAI_API_KEY to GitHub.
+*(Hosted with Gradio on Hugging Face Spaces — the app may take a few seconds to start if idle.)*
+
+
+
+## Features
+-  Upload audio files (`.mp3`, `.wav`, `.m4a`)
+-  Transcribe speech to text using **OpenAI Whisper**
+-  Generate structured **meeting minutes**:
+  - Summary
+  - Key discussion points
+  - Takeaways
+  - Action items (with owners)
+
+---
+
+## 🛠 Tech Stack
+- **Python**
+- **Gradio** for the user interface
+- **OpenAI Whisper** (`whisper-1`) for transcription
+- **OpenAI GPT-4o-mini** for summarization & minutes
+- **Hugging Face Spaces** for deployment
+
+---
+
+##  Screenshots
+_Add a couple of screenshots of your Gradio app UI here (upload images to the repo and reference them)._
+
+Example:  
+![App Screenshot](screenshot.png)
+
+---
+
+##  Getting Started (Run Locally)
+Clone the repo:
+```bash
+git clone https://github.com/Suyash84270/Business-meeting-minutes-gradio.git
+cd Business-meeting-minutes-gradio
