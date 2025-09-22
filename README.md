@@ -37,7 +37,7 @@ Example:
 App Screenshot ---- ([screenshot.png](https://github.com/Suyash84270/Business-meeting-minutes-gradio/blob/c13f1af357aa88ca6f4b816fabaff4efe8ee867f/Screenshot%202025-09-22%20102654.png))
 
 
------- 
+------([screenshot.png](https://github.com/Suyash84270/Business-meeting-minutes-gradio/blob/c13f1af357aa88ca6f4b816fabaff4efe8ee867f/Screenshot%202025-09-22%20102654.png))
 
 ---
 
